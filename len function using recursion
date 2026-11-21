@@ -3,5 +3,5 @@ def length(str):
         return 0
     else:
         return 1+length(str[1::])
-str ="killers"
+str = input("enter string to check length ")
 print(length(str))
